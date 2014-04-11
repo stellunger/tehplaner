@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteCond $1 !^(index\.html|catalog\.html|mail\.php|assets)
+RewriteCond $1 !^(index\.html|b901a9a7a2bc\.html|catalog\.html|mail\.php|assets|favicon\.ico)
 RewriteRule ^(.*)$ /index.html [L]
 

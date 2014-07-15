@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteCond $1 !^(index\.html|b901a9a7a2bc\.html|yandex_58cf49a61f3cca40\.html|mail\.php|mail1\.php|assets|favicon\.ico)
+RewriteCond $1 !^(index\.html|partners\.html|b901a9a7a2bc\.html|yandex_58cf49a61f3cca40\.html|mail2\.php|mail\.php|mail1\.php|assets|favicon\.ico)
 RewriteRule ^(.*)$ /index.html [L]
 

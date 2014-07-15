@@ -19,3 +19,14 @@ $('#form1').on('submit', function(event) {
         $('#form1').html('<h1>Спасибо! Мы свяжемся с вами!</h1>');    
     });
 });
+
+$('#form2').on('submit', function(event) {
+    event.preventDefault();
+
+    $.post('/mail2.php', {
+        name1: $('#name2').val(),        
+        phone1: $('#phone2').val(),        
+    }, function(){
+        $('#form2').html('<h1>Спасибо! Мы свяжемся с вами!</h1>');    
+    });
+});
